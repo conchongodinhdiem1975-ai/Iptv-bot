@@ -1,0 +1,4 @@
+# Các file không cần đẩy lên
+iptv-bot
+bot.log
+data/live.m3u
