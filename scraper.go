@@ -14,12 +14,11 @@ import (
 
 // 🔗 1. CHỖ NÀY ÔNG DÁN MẤY LINK PLAYLIST BUỔI CHIỀU VÀO NHÉ
 var rawSources = []string{
-	"LINK_PLAYLIST_CUA_ONG_1", 
-	"LINK_PLAYLIST_CUA_ONG_2",
+	"https://quidniptv.blogspot.com/p/iptv.html",
 }
 
 // 🔗 2. CHỖ NÀY DÀNH CHO LINK CÀO TOKEN CỦA ÔNG
-var tokenURL = "LINK_WEB_LAY_TOKEN_CUA_ONG"
+var tokenURL = "https://quidniptv.blogspot.com/p/iptv.html"
 
 // 🛡️ Tự động vá lỗi (Tránh sập bot)
 func autoRecover() {
